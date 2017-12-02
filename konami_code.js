@@ -7,7 +7,7 @@ function init() {
     const key = parseInt(e.detail || e.location)
     if (key === code[i]) {
       i++
-      if (i === code.length) {
+      if (i === code.length - 1) {
         alert("Hurray!")
         i = 0
       }
