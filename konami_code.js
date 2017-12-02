@@ -8,7 +8,7 @@ function init() {
     if (key === code[i]) {
       i = i++
       if (i === code.length) {
-        window.alert('Hurray!')
+        alert('Hurray!')
         i = 0
       }
     } else {
